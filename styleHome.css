@@ -1,0 +1,160 @@
+/* Hero Section */
+
+#heroDiv {
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+  }
+  
+  #htextDiv{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #htextDiv p{
+    font-size: larger;
+  }
+  
+  #htextDiv h1{
+    font-size: 42px;
+  }
+  
+  #himageDiv{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .buyProdbtn {
+    background-color: #bfbfbf;
+    height: 50px;
+    width: 250px;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 25px;
+    border: 2px black solid;
+  }
+  
+  .buyProdbtn:hover{
+    scale: 1.1;
+    margin-left: 12px;
+  }
+  
+  
+  
+
+
+
+
+  
+
+/* Catagories */
+#catagoryDiv {
+    background-color: gray;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #catItemsDiv {
+    width: 10%;
+    height: 200px;
+    background-color: transparent;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    align-content: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  #catItemsDiv a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /*#catItemsDiv h3:hover{
+    scale: 1.1;
+  }*/
+  
+  #catItemsDiv:hover{
+    transform: scale(1.2);
+  }
+  
+  
+  
+
+
+
+  
+  
+  
+  /* PPof the month */
+  
+  #PPofMonth{
+    text-align: center;
+    font-weight: 600;
+    scale: 1.2;
+  }
+  
+  #ppofmonthDiv {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #cardsDiv {
+    width: 22%;
+    height: 500px;
+    background-color: #d9d9d9;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 12px;
+  }
+  
+  #cardsDiv img {
+    border-radius: 15px;
+  }
+  
+  #cardsDiv h2{
+    font-weight: bold;
+  }
+  
+  #cardsDiv h4{
+    font-weight: 500;
+  }
+  
+  #cardsDiv a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
+  #cardsDiv h3:hover, #cardsDiv h2:hover{
+    scale: 1.1;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  /* end button */
+  
+  #endbtnDiv {
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #endbtnDiv .buyProdbtn{
+    margin: 10px;
+  }
+  
+  
+  
+  
+  
+  
