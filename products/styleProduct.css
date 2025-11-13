@@ -1,0 +1,83 @@
+#ProdBodyDiv{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+/* Sub div */
+
+.subNav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.subNav a{
+    color: black;
+}
+
+
+
+
+
+
+  
+  #divForPPageCards {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.7em;
+    margin-bottom: 25px;
+  }
+  
+
+
+
+
+
+
+
+  #PPcardsDiv {
+    width: 22%;
+    height: auto;
+    background-color: #d9d9d9;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 12px;
+    transition: transform 0.3s ease;
+  }
+
+  
+  #PPcardsDiv:hover{
+    transform: scale(1.07);
+  }
+
+
+
+
+  #PPcardsDiv img {
+    border-radius: 15px;
+    background-color: white;
+  }
+  
+  #PPcardsDiv h2{
+    font-weight: bold;
+  }
+  
+  #PPcardsDiv h4{
+    font-weight: 500;
+  }
+  
+  #PPcardsDiv a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
